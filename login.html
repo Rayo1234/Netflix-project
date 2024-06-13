@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    <title>Signin</title>
+</head>
+<body>
+    <div class="bg-center bg-no-repeat  bg-blend-multiply bg-[#424242]" style="background-image: url('./img/bgimage.jpg');">
+        <nav class="bg-transparent px-20 absolute w-full z-20 -top-7 start-0">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
+                <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./img/netflixLogo.png" class="h-36" alt="Logo">
+                </a>
+            </div>
+        </nav>
+        <div class="px-4 mx-auto max-w-screen-xl py-14">
+            <form class="w-4/12 rounded-md mx-auto p-12 bg-[rgba(0,0,0,0.72)]">
+                <h1 class="mb-6 text-3xl font-bold tracking-tight leading-none text-white">Sign In</h1>
+                <div class="mb-5">
+                    <input type="email" id="email" class="shadow-sm bg-[rgba(94,93,93,0.4)] text-gray-900 placeholder:text-base placeholder:font-normal rounded-sm block w-full py-4 px-6 p-2 dark:shadow-sm-light" placeholder="Email or phone number"/>
+                </div>
+                <div class="mb-5">
+                    <input type="email" id="email" class="shadow-sm bg-[rgba(94,93,93,0.4)] text-gray-900 placeholder:text-base placeholder:font-normal rounded-sm block w-full py-4 px-6 p-2 dark:shadow-sm-light" placeholder="Password"/>
+                </div>
+                <button type="submit" class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-md w-full px-5 py-2.5 text-center mb-5">Sign In</button>
+                <h1 class="mb-5 text-lg font-medium leading-none text-center text-[#939291]">OR</h1>
+                <button type="submit" class="text-white bg-[rgba(128,128,128,0.4)] hover:bg-[rgba(94,93,93,0.4)] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-md w-full px-5 py-2.5 text-center mb-5">Use a Sign-In Code</button>
+                <ul class="text-white hover:text-[rgba(210,209,209,0.4)] text-center font-normal">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Forgot password?</a>
+                    </li>
+                </ul>
+                </ul>
+                <div class="flex items-start mb-5">
+                    <div class="flex items-center h-5">
+                        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-transparent focus:ring-3 dark:border-gray-600  dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                    </div>
+                    <label for="remember" class="ms-2 text-sm font-normal  text-gray-600 dark:text-gray-300">Remember me</label>
+                </div>
+                <span class="text-[#939291] text-left font-medium">New to Netflix?</span>
+                <a href="/Netflix-project/index.html" class="hover:underline text-white text-md font-semibold">Sign up now</a>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-black mx-auto py-14 h-max text-center">
+        <div class="mx-auto mt-36 w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 text-wrap px-20 py-6 lg:py-8 md:grid-cols-4">
+              <div>
+                  <ul class="text-[#939291] text-left text-sm">
+                      <li class="mb-4">
+                          <a href="#" class="underline">Questions? Contact us.</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="underline">FAQ</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="underline">Cookie Preferences</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <ul class="text-[#939291] text-left text-sm">
+                      <li class="mb-4">
+                          <a href="" class="underline">Help Center</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="underline">Corporate Information</a>
+                      </li>
+                      
+                  </ul>
+              </div>
+              <div>
+                  <ul class="text-[#939291] text-left text-sm">
+                      <li class="mb-4">
+                          <a href="#" class="underline">Term of Use</a>
+                      </li>
+                      
+                  </ul>
+              </div>
+              <div>
+                  <ul class="text-[#939291] text-left text-sm">
+                      <li class="mb-4">
+                          <a href="#" class="underline">Privacy</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+            <div class="px-4 py-6  md:flex md:items-center md:justify-between">
+              <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
