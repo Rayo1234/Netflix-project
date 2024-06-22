@@ -9,19 +9,105 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <div>
-                <nav class="bg-transparent px-20 absolute w-full z-20 -top-2 start-0">
-                    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
-                        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-                            <img src="./img/netflixLogo.png" class="h-20" alt="Logo">
-                        </a>
-                        
-                        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                            <button type="button" class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm mr-16 px-4 py-2 text-center">Sign in</button>
+        <div  class="bg-black">
+            <div id="background" class="bg-center bg-no-repeat bg-cover bg-[#424242] h-[645px] mb-56" style="background-image:url('./img/wallpaper.jpg');">
+                <nav class="absolute w-full z-20 -top-2 start-0">
+                    <div class="max-w-screen-xl flex flex-wrap items-center mx-auto justify-between">
+                        <div class="flex -space-x-2"> 
+                            <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+                             <img src="./img/netflixLogo.png" class="h-20" alt="Logo">
+                            </a>
+                            <a href=""  class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">Home</a>
+                            <a href=""  class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">TV shows</a>
+                            <a href=""  class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">Movies</a>
+                            <a href=""  class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">New & Popular</a>
+                            <a href=""  class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">My List</a>
+                            <a href=""  class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">Browse by Languages</a>
+                        </div>
+                        <div class="flex -space-x-3">
+                            <button type="button" class="relative inline-flex items-center p-3 text-sm font-medium mr-1 text-center text-white ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                  </svg>                                                          
+                                <span class="sr-only">Search</span>
+                            </button>
+                            <button type="button" class="relative inline-flex items-center p-3 text-md font-medium mr-3 text-center text-white ">
+                             Kids  
+                            </button>
+                            <button type="button" class="relative inline-flex items-center p-3 text-sm font-medium mr-3 text-center text-white ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                                </svg>                            
+                                <span class="sr-only">Notifications</span>
+                                <div class="absolute inline-flex items-center justify-center h-5 w-5 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full top-0.5 end-1 dark:border-gray-900">2</div>
+                            </button>
+                            <button type="button" class="focus:ring-4 focus:outline-none font-medium rounded-lg text-sm mr-16 px-4 py-2 text-center">
+                                <img class="h-12 w-12  rounded-lg" src="./img/pfp.jpg" alt="">
+                            </button>
                         </div>
                     </div>
                 </nav>
+                <div class="px-4 mx-auto max-w-screen-xl text-left py-36 ">
+                    <p class="text-xl tracking-widest text-[#939291] text-left font-medium">FILM</p>
+                    <h1 class="mb-4 text-7xl -tracking-widest font-bold leading-none text-red-300">SAS RED NOTICE</h1>
+                    <p class="mb-6 text-2xl  text-white font-semibold ">1 IN TV Movies Today</p>
+                    <p class="text-lg text-white font-medium text-balance leading-tight">SAS commander George Clements hires them to clear a </p>
+                    <p class="text-lg text-white font-medium text-balance leading-tight">remote village in Georgia for a transnational Britgaz gas pipeline.</p>
+                    <p class="text-lg text-white font-medium text-balance leading-tight">When the villagers resist, Black Swans massacre them.</p>
+                    <p class="text-lg text-white font-medium text-balance leading-tight">Their atrocities are secretly filmed, </p>
+                    <p class="mb-5 text-lg text-white font-medium text-balance leading-tight">leading to red notices and accusations of crimes against humanity. </p>
+                    <div class="mb-20 flex flex-col space-x-4 sm:flex-row sm:justify-left">
+                        <button type="button" class="text-black bg-white hover:bg-[#BFBFBF] font-medium rounded-md text-lg px-6 py-1.5 text-center inline-flex items-center">
+                            <svg class="w-10 h-10 me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
+                            </svg>
+                            Play
+                        </button>
+                         <button type="button" class="text-white bg-[#6e6c6c75] hover:bg-[rgba(0,0,0,0.72)] font-medium rounded-lg text-lg px-5 py-3 text-center inline-flex items-center me-2 ">
+                           <svg class="w-6 h-6 me-2"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                            More Info
+                        </button>
+                    </div>
+                    <p class="mb-3 text-lg text-white text-left font-medium">Your Next Watch</p>
+                    <div class="grid gap-2">
+                        <div class="grid grid-cols-5 gap-2">
+                            <div>
+                                <img class="h-40 w-full rounded-md" src="./img/jjk.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="h-40 w-full rounded-md bg-contain" src="./img/GOT.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="h-40 w-full rounded-md" src="./img/lsoe.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="h-40 w-full rounded-md" src="./img/all-of-us-are-dead-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="h-40 w-full rounded-md" src="./img/LOU.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-12">
+                <p class="mb-3 text-lg text-white text-left font-medium">Continue watching for Gulp</p>
+                <div class="grid gap-2">
+                    <div class="grid grid-cols-5 gap-2">
+                        <div>
+                            <img class="h-40 w-full rounded-md" src="./img/arcane.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="h-40 w-full rounded-md" src="./img/TGD.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="h-40 w-full rounded-md" src="./img/YS.jpg" alt="">
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
